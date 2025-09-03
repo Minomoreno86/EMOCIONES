@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		7BDDDAFC2E68D9D500FF506F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDDDAE22E68D9D400FF506F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDDDAE92E68D9D400FF506F;
+			remoteInfo = "ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+		};
+		7BDDDB062E68D9D500FF506F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDDDAE22E68D9D400FF506F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDDDAE92E68D9D400FF506F;
+			remoteInfo = "ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BDDDAEA2E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASISTENTE APOYO EMOCIONAL FERTILIDAD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDDDAFB2E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASISTENTE APOYO EMOCIONAL FERTILIDADTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDDDB052E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASISTENTE APOYO EMOCIONAL FERTILIDADUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7BDDDB0D2E68D9D500FF506F /* Exceptions for "ASISTENTE APOYO EMOCIONAL FERTILIDAD" folder in "ASISTENTE APOYO EMOCIONAL FERTILIDAD" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7BDDDAE92E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7BDDDAEC2E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7BDDDB0D2E68D9D500FF506F /* Exceptions for "ASISTENTE APOYO EMOCIONAL FERTILIDAD" folder in "ASISTENTE APOYO EMOCIONAL FERTILIDAD" target */,
+			);
+			path = "ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+			sourceTree = "<group>";
+		};
+		7BDDDAFE2E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ASISTENTE APOYO EMOCIONAL FERTILIDADTests";
+			sourceTree = "<group>";
+		};
+		7BDDDB082E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ASISTENTE APOYO EMOCIONAL FERTILIDADUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDDDAE72E68D9D400FF506F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDDDAF82E68D9D500FF506F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDDDB022E68D9D500FF506F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BDDDAE12E68D9D400FF506F = {
+			isa = PBXGroup;
+			children = (
+				7BDDDAEC2E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD */,
+				7BDDDAFE2E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADTests */,
+				7BDDDB082E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADUITests */,
+				7BDDDAEB2E68D9D400FF506F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDDDAEB2E68D9D400FF506F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDDDAEA2E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD.app */,
+				7BDDDAFB2E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADTests.xctest */,
+				7BDDDB052E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDDDAE92E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDDDB0E2E68D9D500FF506F /* Build configuration list for PBXNativeTarget "ASISTENTE APOYO EMOCIONAL FERTILIDAD" */;
+			buildPhases = (
+				7BDDDAE62E68D9D400FF506F /* Sources */,
+				7BDDDAE72E68D9D400FF506F /* Frameworks */,
+				7BDDDAE82E68D9D400FF506F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7BDDDAEC2E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD */,
+			);
+			name = "ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+			packageProductDependencies = (
+			);
+			productName = "ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+			productReference = 7BDDDAEA2E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BDDDAFA2E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDDDB132E68D9D500FF506F /* Build configuration list for PBXNativeTarget "ASISTENTE APOYO EMOCIONAL FERTILIDADTests" */;
+			buildPhases = (
+				7BDDDAF72E68D9D500FF506F /* Sources */,
+				7BDDDAF82E68D9D500FF506F /* Frameworks */,
+				7BDDDAF92E68D9D500FF506F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDDDAFD2E68D9D500FF506F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7BDDDAFE2E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADTests */,
+			);
+			name = "ASISTENTE APOYO EMOCIONAL FERTILIDADTests";
+			packageProductDependencies = (
+			);
+			productName = "ASISTENTE APOYO EMOCIONAL FERTILIDADTests";
+			productReference = 7BDDDAFB2E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BDDDB042E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDDDB162E68D9D500FF506F /* Build configuration list for PBXNativeTarget "ASISTENTE APOYO EMOCIONAL FERTILIDADUITests" */;
+			buildPhases = (
+				7BDDDB012E68D9D500FF506F /* Sources */,
+				7BDDDB022E68D9D500FF506F /* Frameworks */,
+				7BDDDB032E68D9D500FF506F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDDDB072E68D9D500FF506F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7BDDDB082E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADUITests */,
+			);
+			name = "ASISTENTE APOYO EMOCIONAL FERTILIDADUITests";
+			packageProductDependencies = (
+			);
+			productName = "ASISTENTE APOYO EMOCIONAL FERTILIDADUITests";
+			productReference = 7BDDDB052E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDDDAE22E68D9D400FF506F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7BDDDAE92E68D9D400FF506F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					7BDDDAFA2E68D9D500FF506F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7BDDDAE92E68D9D400FF506F;
+					};
+					7BDDDB042E68D9D500FF506F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 7BDDDAE92E68D9D400FF506F;
+					};
+				};
+			};
+			buildConfigurationList = 7BDDDAE52E68D9D400FF506F /* Build configuration list for PBXProject "ASISTENTE APOYO EMOCIONAL FERTILIDAD" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDDDAE12E68D9D400FF506F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7BDDDAEB2E68D9D400FF506F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDDDAE92E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD */,
+				7BDDDAFA2E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADTests */,
+				7BDDDB042E68D9D500FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDADUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDDDAE82E68D9D400FF506F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDDDAF92E68D9D500FF506F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDDDB032E68D9D500FF506F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDDDAE62E68D9D400FF506F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDDDAF72E68D9D500FF506F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDDDB012E68D9D500FF506F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BDDDAFD2E68D9D500FF506F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDDDAE92E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD */;
+			targetProxy = 7BDDDAFC2E68D9D500FF506F /* PBXContainerItemProxy */;
+		};
+		7BDDDB072E68D9D500FF506F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDDDAE92E68D9D400FF506F /* ASISTENTE APOYO EMOCIONAL FERTILIDAD */;
+			targetProxy = 7BDDDB062E68D9D500FF506F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7BDDDB0F2E68D9D500FF506F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ASISTENTE APOYO EMOCIONAL FERTILIDAD/ASISTENTE_APOYO_EMOCIONAL_FERTILIDAD.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU8L44V647;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ASISTENTE APOYO EMOCIONAL FERTILIDAD/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dr-Jorge-Vasquez.ASISTENTE-APOYO-EMOCIONAL-FERTILIDAD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BDDDB102E68D9D500FF506F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ASISTENTE APOYO EMOCIONAL FERTILIDAD/ASISTENTE_APOYO_EMOCIONAL_FERTILIDAD.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU8L44V647;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ASISTENTE APOYO EMOCIONAL FERTILIDAD/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dr-Jorge-Vasquez.ASISTENTE-APOYO-EMOCIONAL-FERTILIDAD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BDDDB112E68D9D500FF506F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YU8L44V647;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BDDDB122E68D9D500FF506F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YU8L44V647;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDDDB142E68D9D500FF506F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU8L44V647;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dr-Jorge-Vasquez.ASISTENTE-APOYO-EMOCIONAL-FERTILIDADTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASISTENTE APOYO EMOCIONAL FERTILIDAD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+			};
+			name = Debug;
+		};
+		7BDDDB152E68D9D500FF506F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU8L44V647;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dr-Jorge-Vasquez.ASISTENTE-APOYO-EMOCIONAL-FERTILIDADTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASISTENTE APOYO EMOCIONAL FERTILIDAD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+			};
+			name = Release;
+		};
+		7BDDDB172E68D9D500FF506F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU8L44V647;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dr-Jorge-Vasquez.ASISTENTE-APOYO-EMOCIONAL-FERTILIDADUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+			};
+			name = Debug;
+		};
+		7BDDDB182E68D9D500FF506F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YU8L44V647;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dr-Jorge-Vasquez.ASISTENTE-APOYO-EMOCIONAL-FERTILIDADUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ASISTENTE APOYO EMOCIONAL FERTILIDAD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDDDAE52E68D9D400FF506F /* Build configuration list for PBXProject "ASISTENTE APOYO EMOCIONAL FERTILIDAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDDDB112E68D9D500FF506F /* Debug */,
+				7BDDDB122E68D9D500FF506F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDDDB0E2E68D9D500FF506F /* Build configuration list for PBXNativeTarget "ASISTENTE APOYO EMOCIONAL FERTILIDAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDDDB0F2E68D9D500FF506F /* Debug */,
+				7BDDDB102E68D9D500FF506F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDDDB132E68D9D500FF506F /* Build configuration list for PBXNativeTarget "ASISTENTE APOYO EMOCIONAL FERTILIDADTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDDDB142E68D9D500FF506F /* Debug */,
+				7BDDDB152E68D9D500FF506F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDDDB162E68D9D500FF506F /* Build configuration list for PBXNativeTarget "ASISTENTE APOYO EMOCIONAL FERTILIDADUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDDDB172E68D9D500FF506F /* Debug */,
+				7BDDDB182E68D9D500FF506F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BDDDAE22E68D9D400FF506F /* Project object */;
+}

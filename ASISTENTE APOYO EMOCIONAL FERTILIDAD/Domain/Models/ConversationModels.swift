@@ -25,12 +25,12 @@ public struct PersonalityTraits: Codable, Sendable {
 // MARK: - SwiftData Models for Persistence
 
 @Model
-public final class ConversationEntity {
-    @Attribute(.unique) public var id: UUID
-    public var createdAt: Date
-    public var messages: [MessageEntity]
+final class ConversationEntity {
+    @Attribute(.unique) var id: UUID
+    var createdAt: Date
+    var messages: [MessageEntity]
     
-    public init(id: UUID = UUID(), createdAt: Date = Date(), messages: [MessageEntity] = []) {
+    init(id: UUID = UUID(), createdAt: Date = Date(), messages: [MessageEntity] = []) {
         self.id = id
         self.createdAt = createdAt
         self.messages = messages
@@ -38,16 +38,16 @@ public final class ConversationEntity {
 }
 
 @Model
-public final class MessageEntity {
-    @Attribute(.unique) public var id: UUID
-    public var content: String
-    public var isFromUser: Bool
-    public var timestamp: Date
-    public var detectedEmotion: String?
-    public var confidence: Double
-    public var rationale: String?
+final class MessageEntity {
+    @Attribute(.unique) var id: UUID
+    var content: String
+    var isFromUser: Bool
+    var timestamp: Date
+    var detectedEmotion: String?
+    var confidence: Double
+    var rationale: String?
     
-    public init(id: UUID = UUID(), 
+    init(id: UUID = UUID(), 
          content: String, 
          isFromUser: Bool, 
          timestamp: Date = Date(), 

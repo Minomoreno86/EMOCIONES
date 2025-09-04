@@ -1,863 +1,19 @@
 {
-  "sourceLanguage" : "en",
+  "sourceLanguage" : "es",
   "strings" : {
-    "¡Bienvenida!" : {
-
-    },
-    "¡Todo Listo!" : {
-
-    },
-    "¿Cómo te sientes hoy?" : {
-
-    },
-    "¿Qué sientes? (Opcional)" : {
-
-    },
-    "(%lld%%)" : {
-
-    },
-    "%lld" : {
-
-    },
-    "%lld min" : {
-
-    },
-    "%lld%%" : {
-
-    },
-    "🌙" : {
-
-    },
-    "Acciones Rápidas" : {
-
-    },
-    "Adaptación: %lld%%" : {
-
-    },
-    "Add Item" : {
-
-    },
-    "Análisis de Mensaje" : {
-
-    },
-    "Análisis Emocional" : {
-
-    },
-    "Apoyo informativo - No reemplaza atención médica" : {
-
-    },
-    "Cerrar" : {
-
-    },
-    "chat_input_placeholder" : {
+    "welcome.message" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Type a message"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escribe un mensaje"
-          }
-        }
-      }
-    },
-    "chat_send_button" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Send"
+            "value" : "¡Hola! Soy Luna. ¿Cómo te sientes hoy?"
           }
         },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enviar"
-          }
-        }
-      }
-    },
-    "chat_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Assistant"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Asistente"
-          }
-        }
-      }
-    },
-    "Comenzar" : {
-
-    },
-    "Comienza cuando te sientas lista" : {
-
-    },
-    "Confianza: %lld%%" : {
-
-    },
-    "Consejos Rápidos" : {
-
-    },
-    "Detalles" : {
-
-    },
-    "Detalles de Luna" : {
-
-    },
-    "Detectado basado en el contexto de la conversación" : {
-
-    },
-    "Duración" : {
-
-    },
-    "Ejercicios Disponibles" : {
-
-    },
-    "emergency_close" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Close"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cerrar"
-          }
-        }
-      }
-    },
-    "emergency_nav_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emergency"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emergencia"
-          }
-        }
-      }
-    },
-    "emergency_phone_911" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emergency: 911"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emergencia: 911"
-          }
-        }
-      }
-    },
-    "emergency_phone_local" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Local Emergency: [Your Local Number]"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emergencia Local: [Tu Número Local]"
-          }
-        }
-      }
-    },
-    "emergency_phone_mental_health" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mental Health Crisis: 988"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Crisis de Salud Mental: 988"
-          }
-        }
-      }
-    },
-    "emergency_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emergency Contacts"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Contactos de Emergencia"
-          }
-        }
-      }
-    },
-    "Emoción detectada: %@" : {
-
-    },
-    "Emoción: %@" : {
-
-    },
-    "Encuentra tu momento de calma" : {
-
-    },
-    "Escribe tu mensaje..." : {
-
-    },
-    "Estadísticas de Conversación" : {
-
-    },
-    "Estado Emocional Actual" : {
-
-    },
-    "Excelente" : {
-
-    },
-    "Explicación:" : {
-
-    },
-    "Fecha" : {
-
-    },
-    "Herramientas de Bienestar" : {
-
-    },
-    "Historial" : {
-
-    },
-    "Historial de Ánimo" : {
-
-    },
-    "home_chat_button" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chat"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Chat"
-          }
-        }
-      }
-    },
-    "home_insights_button" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insights"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendencias"
-          }
-        }
-      }
-    },
-    "home_mindfulness_button" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mindfulness"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mindfulness"
-          }
-        }
-      }
-    },
-    "home_mood_button" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mood"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ánimo"
-          }
-        }
-      }
-    },
-    "home_settings_button" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Settings"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ajustes"
-          }
-        }
-      }
-    },
-    "home_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Home"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Inicio"
-          }
-        }
-      }
-    },
-    "Iniciar" : {
-
-    },
-    "insights_nav" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insights"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendencias"
-          }
-        }
-      }
-    },
-    "insights_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Insights"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tendencias"
-          }
-        }
-      }
-    },
-    "intervention.breathing.60s" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "60s pause: inhale 4, hold 7, exhale 8. Shall we continue when you're ready?"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pausa de 60s: inhala 4, sostén 7, exhala 8. ¿Seguimos cuando estés lista?"
-          }
-        }
-      }
-    },
-    "Item at %@" : {
-
-    },
-    "Luna AI" : {
-
-    },
-    "Luna AI - Explicabilidad" : {
-
-    },
-    "Luna AI Demo" : {
-
-    },
-    "Luna AI Personality Engine" : {
-
-    },
-    "Mensaje Analizado" : {
-
-    },
-    "Mindfulness" : {
-
-    },
-    "mindfulness_nav" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mindfulness"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mindfulness"
-          }
-        }
-      }
-    },
-    "mindfulness_play" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Play"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reproducir"
-          }
-        }
-      }
-    },
-    "mindfulness_stop" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Stop"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Detener"
-          }
-        }
-      }
-    },
-    "mindfulness_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mindfulness"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mindfulness"
-          }
-        }
-      }
-    },
-    "mood_note_placeholder" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add a note (optional)"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Agregar una nota (opcional)"
-          }
-        }
-      }
-    },
-    "mood_save_button" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Save"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Guardar"
-          }
-        }
-      }
-    },
-    "mood_score_label %lld" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Score %lld"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Puntaje %lld"
-          }
-        }
-      }
-    },
-    "mood_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Mood"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ánimo"
-          }
-        }
-      }
-    },
-    "Muy bajo" : {
-
-    },
-    "Nivel de Adaptación: %lld%%" : {
-
-    },
-    "Nivel de Ánimo" : {
-
-    },
-    "Notas Adicionales" : {
-
-    },
-    "onboarding_consent_description" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your data stays on your device. We do not collect personal information."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tus datos permanecen en tu dispositivo. No recopilamos información personal."
-          }
-        }
-      }
-    },
-    "onboarding_consent_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Data Privacy"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Privacidad de Datos"
-          }
-        }
-      }
-    },
-    "onboarding_consent_toggle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I understand and consent"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entiendo y consiento"
-          }
-        }
-      }
-    },
-    "onboarding_emergency_button" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emergency Contacts"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Contactos de Emergencia"
-          }
-        }
-      }
-    },
-    "onboarding_medical_disclaimer" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This app provides educational support only. It does not replace medical consultation."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Esta app proporciona solo apoyo educativo. No sustituye la consulta médica."
-          }
-        }
-      }
-    },
-    "onboarding_medical_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Medical Disclaimer"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Aviso Médico"
-          }
-        }
-      }
-    },
-    "onboarding_welcome_subtitle" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your fertility support companion"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Tu compañera de apoyo en fertilidad"
-          }
-        }
-      }
-    },
-    "onboarding_welcome_title" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Welcome to Gynevia"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bienvenida a Gynevia"
-          }
-        }
-      }
-    },
-    "Pausar" : {
-
-    },
-    "Personalidad" : {
-
-    },
-    "personalization.high_empathy" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " I'm here with you in this moment."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " Estoy aquí contigo en este momento."
-          }
-        }
-      }
-    },
-    "personalization.high_support" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " Your strength inspires me."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : " Tu fortaleza me inspira."
-          }
-        }
-      }
-    },
-    "Puntaje" : {
-
-    },
-    "Puntaje: %lld" : {
-
-    },
-    "Rasgos de Personalidad" : {
-
-    },
-    "Registra tu estado emocional" : {
-
-    },
-    "responses.anxious.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I understand you're feeling anxious. Let's breathe together for a moment."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Entiendo que te sientes ansiosa. Respiremos juntas por un momento."
-          }
-        }
-      }
-    },
-    "responses.anxious.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anxiety is natural in this process. What would help you feel calmer?"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "La ansiedad es natural en este proceso. ¿Qué te ayudaría a sentirte más tranquila?"
-          }
-        }
-      }
-    },
-    "responses.anxious.3" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I'm here with you. Let's go step by step, without rushing."
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Estoy aquí contigo. Vamos paso a paso, sin prisa."
-          }
-        }
-      }
-    },
-    "responses.excited.1" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "¡Qué hermoso verte tan emocionada! Comparto tu alegría."
-          }
-        }
-      }
-    },
-    "responses.excited.2" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Tu emoción me llena de felicidad. ¡Celebremos juntas!"
-          }
-        }
-      }
-    },
-    "responses.excited.3" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Es maravilloso verte brillar así. Mereces toda esta felicidad."
+            "value" : "Hello! I'm Luna. How are you feeling today?"
           }
         }
       }
@@ -865,148 +21,84 @@
     "responses.fallback" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I hear you. I'm here to support you."
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Te escucho. Estoy aquí para apoyarte."
+            "value" : "Estoy aquí contigo. ¿Quieres contarme más?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I'm here with you. Would you like to tell me more?"
           }
         }
       }
     },
-    "responses.frustrated.1" : {
-      "extractionState" : "extracted_with_value",
+    "disclaimer" : {
+      "extractionState" : "manual",
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recuerda: consulta siempre con tu médico."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Comprendo tu frustración. A veces el camino se siente muy difícil."
+            "state" : "translated",
+            "value" : "Remember: always consult with your doctor."
           }
         }
       }
     },
-    "responses.frustrated.2" : {
-      "extractionState" : "extracted_with_value",
+    "responses.anxious.1" : {
+      "extractionState" : "manual",
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entiendo tu ansiedad. Respiremos juntas: inhala 4 segundos, mantén 7, exhala 8."
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Es válido sentirse frustrada. ¿Qué necesitas para sentirte mejor?"
+            "state" : "translated",
+            "value" : "I understand your anxiety. Let's breathe together: inhale 4 seconds, hold 7, exhale 8."
           }
         }
       }
     },
-    "responses.frustrated.3" : {
-      "extractionState" : "extracted_with_value",
+    "responses.anxious.2" : {
+      "extractionState" : "manual",
       "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es normal sentir ansiedad en este proceso. ¿Qué te ayuda más a relajarte?"
+          }
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Tu frustración habla de lo mucho que deseas esto. Eso es fortaleza."
+            "state" : "translated",
+            "value" : "It's normal to feel anxiety in this process. What helps you relax the most?"
           }
         }
       }
     },
-    "responses.grateful.1" : {
-      "extractionState" : "extracted_with_value",
+    "responses.anxious.3" : {
+      "extractionState" : "manual",
       "localizations" : {
-        "en" : {
+        "es" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Tu gratitud es hermosa y se siente en cada palabra."
+            "state" : "translated",
+            "value" : "Cada día es un paso adelante. Tu fortaleza me inspira."
           }
-        }
-      }
-    },
-    "responses.grateful.2" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
+        },
         "en" : {
           "stringUnit" : {
-            "state" : "new",
-            "value" : "Qué bonito es compartir este momento de agradecimiento contigo."
-          }
-        }
-      }
-    },
-    "responses.grateful.3" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "La gratitud que sientes ilumina todo a tu alrededor."
-          }
-        }
-      }
-    },
-    "responses.hopeful.1" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Me alegra sentir tu esperanza. Es una fuerza hermosa."
-          }
-        }
-      }
-    },
-    "responses.hopeful.2" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Esa esperanza que tienes es el motor de todo lo bueno que viene."
-          }
-        }
-      }
-    },
-    "responses.hopeful.3" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Tu optimismo es contagioso y me inspira."
-          }
-        }
-      }
-    },
-    "responses.neutral.1" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Te escucho. Estoy aquí para acompañarte en lo que necesites."
-          }
-        }
-      }
-    },
-    "responses.neutral.2" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "¿Cómo puedo apoyarte mejor en este momento?"
-          }
-        }
-      }
-    },
-    "responses.neutral.3" : {
-      "extractionState" : "extracted_with_value",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "Estoy contigo. Cuéntame lo que sientes."
+            "state" : "translated",
+            "value" : "Each day is a step forward. Your strength inspires me."
           }
         }
       }
@@ -1014,16 +106,16 @@
     "responses.sad.1" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "I'm sorry you're going through this difficult moment."
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Siento que estés pasando por este momento difícil."
+            "value" : "Siento tu tristeza. Está bien no estar bien siempre. ¿Quieres hablar de ello?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I feel your sadness. It's okay not to be okay always. Do you want to talk about it?"
           }
         }
       }
@@ -1031,16 +123,16 @@
     "responses.sad.2" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "It's okay to feel sadness. It's part of the process and you are very brave."
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Está bien sentir tristeza. Es parte del proceso y eres muy valiente."
+            "value" : "Las lágrimas también sanan. Te acompaño en este momento."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tears also heal. I accompany you in this moment."
           }
         }
       }
@@ -1048,162 +140,291 @@
     "responses.sad.3" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "You're not alone in this. Allow yourself to feel, I'll be here."
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No estás sola en esto. Permítete sentir, yo estaré aquí."
+            "value" : "Tu valentía para seguir adelante es admirable."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your courage to keep going is admirable."
           }
         }
       }
     },
-    "Restante" : {
-
-    },
-    "Resumen de Hoy" : {
-
-    },
-    "Select an item" : {
-
-    },
-    "settings_locale" : {
+    "responses.hopeful.1" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Language"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Idioma"
+            "value" : "Qué hermosa esperanza siento en tus palabras. ¡Sigamos construyendo juntas!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What beautiful hope I feel in your words. Let's keep building together!"
           }
         }
       }
     },
-    "settings_locale_en" : {
+    "responses.hopeful.2" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "English"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inglés"
+            "value" : "Tu optimismo es contagioso. ¿Qué te inspira hoy?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your optimism is contagious. What inspires you today?"
           }
         }
       }
     },
-    "settings_locale_es" : {
+    "responses.hopeful.3" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Spanish"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Español"
+            "value" : "Cada día de esperanza es una victoria."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each day of hope is a victory."
           }
         }
       }
     },
-    "settings_title" : {
+    "responses.excited.1" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Settings"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajustes"
+            "value" : "¡Tu emoción es maravillosa! Cuéntame más de esta alegría."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your excitement is wonderful! Tell me more about this joy."
           }
         }
       }
     },
-    "summary.no_emotions" : {
+    "responses.excited.2" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No emotions detected"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sin emociones detectadas"
+            "value" : "Me contagias tu felicidad. ¡Qué momento tan especial!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You're spreading your happiness to me. What a special moment!"
           }
         }
       }
     },
-    "summary.template" : {
+    "responses.excited.3" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Emotional summary (%d messages): %@. Dominant emotion: %@ (average confidence: %@%%)"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Resumen emocional (%d mensajes): %@. Emoción dominante: %@ (confianza promedio: %@%%)"
+            "value" : "Celebremos juntas estos momentos de luz."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let's celebrate together these moments of light."
           }
         }
       }
     },
-    "Tendencia Reciente" : {
-
-    },
-    "Tu espacio de bienestar emocional" : {
-
-    },
-    "Tu espacio de bienestar emocional está preparado" : {
-
-    },
-    "welcome.message" : {
+    "responses.frustrated.1" : {
       "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Hello! I'm Luna, your emotional support companion. I'm here to listen and accompany you on your journey to motherhood. How do you feel today?"
-          }
-        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "¡Hola! Soy Luna, tu compañera de apoyo emocional. Estoy aquí para escucharte y acompañarte en tu camino hacia la maternidad. ¿Cómo te sientes hoy?"
+            "value" : "Comprendo tu frustración. Tomemos un momento para respirar profundo."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I understand your frustration. Let's take a moment to breathe deeply."
           }
         }
       }
     },
-    "x" : {
-
+    "responses.frustrated.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es válido sentir frustración. ¿Qué necesitas ahora mismo?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It's valid to feel frustration. What do you need right now?"
+          }
+        }
+      }
     },
-    "y" : {
-
+    "responses.frustrated.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Juntas encontraremos una forma de canalizar esta energía."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Together we'll find a way to channel this energy."
+          }
+        }
+      }
+    },
+    "responses.grateful.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu gratitud ilumina este momento. Gracias por compartirla conmigo."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your gratitude illuminates this moment. Thank you for sharing it with me."
+          }
+        }
+      }
+    },
+    "responses.grateful.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La gratitud es medicina para el alma. ¿Qué más valoras hoy?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gratitude is medicine for the soul. What else do you value today?"
+          }
+        }
+      }
+    },
+    "responses.grateful.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cultivar gratitud fortalece el corazón."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cultivating gratitude strengthens the heart."
+          }
+        }
+      }
+    },
+    "responses.neutral.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Te escucho con atención. Cuéntame lo que necesites."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I'm listening carefully. Tell me what you need."
+          }
+        }
+      }
+    },
+    "responses.neutral.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estoy aquí para acompañarte en lo que necesites."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I'm here to accompany you in whatever you need."
+          }
+        }
+      }
+    },
+    "responses.neutral.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Cómo puedo apoyarte mejor hoy?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How can I better support you today?"
+          }
+        }
+      }
+    },
+    "intervention.breathing.60s" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respira conmigo: 4 segundos inhalar, 7 mantener, 8 exhalar. Repite por 1 minuto."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Breathe with me: 4 seconds inhale, 7 hold, 8 exhale. Repeat for 1 minute."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

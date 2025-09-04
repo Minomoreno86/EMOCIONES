@@ -1,23 +1,9 @@
 import Foundation
 import SwiftData
 
-// MARK: - EmotionResult Definition
-
-public struct EmotionResult: Sendable, Codable {
-    public let state: EmotionalState
-    public let confidence: Double  // 0...1
-    public let rationale: String
-    
-    public init(state: EmotionalState, confidence: Double, rationale: String) {
-        self.state = state
-        self.confidence = confidence
-        self.rationale = rationale
-    }
-}
-
 // MARK: - Advanced Emotion Analyzer with Negation and Confidence
 
-public struct RegexEmotionAnalyzer: EmotionAnalyzing {
+struct RegexEmotionAnalyzer: EmotionAnalyzing {
     // Palabras raíz sin diacríticos (límites de palabra)
     private let dict: [EmotionalState: [String]] = [
         .anxious:    ["preocup", "ansi", "mied", "nerv", "estres", "inquiet", "temor", "panic"],
@@ -31,9 +17,9 @@ public struct RegexEmotionAnalyzer: EmotionAnalyzing {
     // Negaciones simples (antes de la palabra clave, ventana de 3 palabras)
     private let negations = ["no", "nunca", "jamás", "ya no"]
 
-    public init() {}
+    init() {}
 
-    public func detect(in text: String) -> EmotionResult {
+    func detect(in text: String) -> EmotionResult {
         let normalized = text.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: .current)
         let tokens = normalized
             .replacingOccurrences(of: "[^\\p{L}\\p{N}\\s]", with: " ", options: .regularExpression)
@@ -90,15 +76,15 @@ public struct RegexEmotionAnalyzer: EmotionAnalyzing {
 
 // MARK: - Safety Filter
 
-public struct SimpleSafetyFilter: SafetyFiltering {
+struct SimpleSafetyFilter: SafetyFiltering {
     // Tono educativo, evitar imperativos médicos/diagnósticos
     private let risky = [
         "debes ", "tienes que ", "diagnóstico", "ajusta dosis", "receta", "medicación"
     ]
     
-    public init() {}
+    init() {}
     
-    public func filter(_ candidate: String) -> String {
+    func filter(_ candidate: String) -> String {
         var s = candidate
         for r in risky { 
             s = s.replacingOccurrences(of: r, with: "podrías considerar ", options: .caseInsensitive) 
@@ -110,14 +96,14 @@ public struct SimpleSafetyFilter: SafetyFiltering {
 
 // MARK: - Conversation Summarizer
 
-public protocol Summarizing {
+protocol Summarizing {
     func summarize(_ messages: [AIMessage]) -> String
 }
 
-public struct EmotionalSummarizer: Summarizing {
-    public init() {}
+struct EmotionalSummarizer: Summarizing {
+    init() {}
     
-    public func summarize(_ messages: [AIMessage]) -> String {
+    func summarize(_ messages: [AIMessage]) -> String {
         let userMessages = messages.filter { $0.isFromUser && $0.detectedEmotion != nil }
         
         let emotionCounts = Dictionary(grouping: userMessages) { message in
@@ -146,32 +132,32 @@ public struct EmotionalSummarizer: Summarizing {
 
 // MARK: - Persistence Gateway
 
-public protocol PersistenceGateway {
+protocol PersistenceGateway {
     func save(_ conversation: ConversationEntity) throws
     func loadConversations() throws -> [ConversationEntity]
     func deleteOldConversations(olderThan date: Date) throws
 }
 
-public class SwiftDataPersistenceGateway: PersistenceGateway {
+class SwiftDataPersistenceGateway: PersistenceGateway {
     private let context: ModelContext
     
-    public init(context: ModelContext) {
+    init(context: ModelContext) {
         self.context = context
     }
     
-    public func save(_ conversation: ConversationEntity) throws {
+    func save(_ conversation: ConversationEntity) throws {
         context.insert(conversation)
         try context.save()
     }
     
-    public func loadConversations() throws -> [ConversationEntity] {
+    func loadConversations() throws -> [ConversationEntity] {
         let descriptor = FetchDescriptor<ConversationEntity>(
             sortBy: [SortDescriptor(\.createdAt, order: .reverse)]
         )
         return try context.fetch(descriptor)
     }
     
-    public func deleteOldConversations(olderThan date: Date) throws {
+    func deleteOldConversations(olderThan date: Date) throws {
         let descriptor = FetchDescriptor<ConversationEntity>(
             predicate: #Predicate { $0.createdAt < date }
         )
@@ -187,18 +173,18 @@ public class SwiftDataPersistenceGateway: PersistenceGateway {
 
 // MARK: - Response Selector
 
-public protocol ResponseSelecting {
+protocol ResponseSelecting {
     func selectResponse(for emotion: EmotionalState, using generator: inout SeededGenerator) -> String
 }
 
-public struct TemplateResponseSelector: ResponseSelecting {
+struct TemplateResponseSelector: ResponseSelecting {
     private let templates: ResponseTemplating
     
-    public init(templates: ResponseTemplating = StaticResponseTemplates()) {
+    init(templates: ResponseTemplating = StaticResponseTemplates()) {
         self.templates = templates
     }
     
-    public func selectResponse(for emotion: EmotionalState, using generator: inout SeededGenerator) -> String {
+    func selectResponse(for emotion: EmotionalState, using generator: inout SeededGenerator) -> String {
         let candidates = templates.templates(for: emotion)
         return candidates.randomElement(using: &generator) ?? String(localized: "responses.fallback", defaultValue: "Te escucho. Estoy aquí para apoyarte.")
     }
@@ -206,10 +192,10 @@ public struct TemplateResponseSelector: ResponseSelecting {
 
 // MARK: - Static Response Templates (Enhanced)
 
-public struct StaticResponseTemplates: ResponseTemplating {
-    public init() {}
+struct StaticResponseTemplates: ResponseTemplating {
+    init() {}
     
-    public func templates(for emotion: EmotionalState) -> [String] {
+    func templates(for emotion: EmotionalState) -> [String] {
         switch emotion {
         case .anxious:
             return [
@@ -259,10 +245,10 @@ public struct StaticResponseTemplates: ResponseTemplating {
 
 // MARK: - Personality Adapter with Clamping
 
-public struct ClampedPersonalityAdapter: PersonalityAdapting {
-    public init() {}
+struct ClampedPersonalityAdapter: PersonalityAdapting {
+    init() {}
     
-    public mutating func adapt(to emotion: EmotionalState, traits: inout PersonalityTraits) {
+    mutating func adapt(to emotion: EmotionalState, traits: inout PersonalityTraits) {
         let delta = 0.05
         
         switch emotion {

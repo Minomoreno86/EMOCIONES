@@ -5,16 +5,16 @@ import os.log
 
 // MARK: - Enhanced AI Message with Metadata
 
-public struct AIMessage: Identifiable {
-    public let id = UUID()
-    public let content: String
-    public let isFromUser: Bool
-    public let timestamp: Date
-    public let detectedEmotion: EmotionalState?
-    public let confidence: Double
-    public let rationale: String?
+struct AIMessage: Identifiable {
+    let id = UUID()
+    let content: String
+    let isFromUser: Bool
+    let timestamp: Date
+    let detectedEmotion: EmotionalState?
+    let confidence: Double
+    let rationale: String?
     
-    public init(content: String, 
+    init(content: String, 
          isFromUser: Bool, 
          detectedEmotion: EmotionalState? = nil,
          confidence: Double = 0.0,
